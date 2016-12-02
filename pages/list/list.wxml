@@ -1,0 +1,11 @@
+<scroll-view scroll-y="true" class="list">
+    <view class="mgs" wx:for="{{array}}">
+         <image class="communitypic" src="{{item.picurl}}"></image>
+         <view class="communityname">{{item.communityname}}</view>
+         <label class="hosuetype">{{item.propertytype}}</label>
+         <label class="creattime">{{item.deliverdate}}</label>
+         <label class="address">{{item.showtext}}</label>
+         <label class="price">{{item.avgprice}}元/平</label>
+         <view class="line"></view>
+    </view>
+</scroll-view>>

@@ -1,0 +1,67 @@
+.list{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.mgs{
+    background-color: white;
+    height: 105px;
+    padding-bottom: 0px;
+} 
+
+.communitypic{
+    position: relative;
+    top: 10px;
+    bottom: -10px;
+    left: 10px;
+    width: 105px;
+    height: 85px;
+}
+
+.communityname{
+   position: relative; 
+   left: 125px;
+   top: -75px;
+   
+}
+
+.hosuetype{
+    position: relative;
+    left: 125px;
+    top:-55px;
+    color: #999999;
+    font-size: 14px;
+}
+
+.creattime{
+    position: relative;
+    left: 70px;
+    top: -30px;
+    color: #666666;
+    font-size: 13px;
+} 
+
+.address {
+    float: right;
+    margin-right: 15px;
+    margin-top: -90px;
+    color: #999999;
+    font-size: 14px;
+} 
+
+.price{
+    float: right;
+    margin-right: 15px;
+    color: red;
+    font-size: 16px;
+    margin-top: -50px;
+    font-weight: bold;
+ 
+}
+
+.line{
+    position: relative;
+    background-color: #dddddd;
+    height: 1px;
+    top: -20px;
+}
